@@ -26,17 +26,17 @@ sudo systemctl enable apache2
 ## Step 5: Clone the repository using the command below
 
 ```bash
-git clone https://github.com/Sumanth484/Web-Applications-HTML-CSS-JS-.git
+git clone https://github.com/Sumanth484/Static-Websites-Hosting-AWS.git
 ```
 ## Step 6: Copy the contents of any one of the websites and place them in the Apache server hosting path
 
 ```bash
 sudo rm -rf /var/www/html/*
-sudo cp -r /home/ubuntu/Web-Applications-HTML-CSS-JS-/Amazon Clone/* /var/www/html/
+sudo cp -r /home/ubuntu/Static-Websites-Hosting-AWS/Amazon\ Clone/* /var/www/html/
 ```
 ## Step 7: By default, Apache server hosts the index.html file. Make sure 'i' in index.html is lowercase.
 
-## Step 8: If you want to change the name of the HTML file and host it, you need to modify the Apache config file
+## Step 8: If you want to change the name of the HTML file and host it, you need to modify the Apache config file.(optioal)
 
 ```bash
 sudo vim /etc/apache2/sites-available/000-default.conf
