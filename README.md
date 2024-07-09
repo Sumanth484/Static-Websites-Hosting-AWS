@@ -47,8 +47,16 @@ Modify DirectoryIndex inside the config file:
     DirectoryIndex home.html
 </Directory>
 
-## Step 9: Restart the Apache system service
+## Step 9: Allow the HTTP Traffic
+
+By default the website is hosted on port 80. So Allow the HTTP traffic through port 80 by modifying inbound rules of the security group.
+    
+## Step 10: Restart the Apache system service
 
 ```bash
 sudo systemctl restart apache2
 ```
+
+## Step 11: Accessing the Application
+
+Now access the web Application with <Instance 'public IP'>:80 
