@@ -1,5 +1,6 @@
 # Web-Applications-HTML-CSS-JS-
-Repo consists of static web applications developed using HTML,CSS and JS
+### Host any of the above web applications using AWS EC2 by following below steps.
+Repo consists of static web applications developed using HTML,CSS and JS.
 Follow the below steps to deploy and host any static web appliication using Apache server in EC2 instance.
 
 # Steps to Deploy a Static Website on an EC2 Instance Using Apache2
